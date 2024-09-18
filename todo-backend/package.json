@@ -1,0 +1,26 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "To Do List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " npx ts-node-dev src/app.ts"
+  },
+  "author": "waseem",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "bcrypt": "^5.1.1",
+    "fastify": "^5.0.0",
+    "fastify-cors": "^6.1.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-plugin": "^5.0.0",
+    "prisma": "^5.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
